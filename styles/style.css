@@ -1,0 +1,18 @@
+/*1 color https://coolors.co/0466c8-0353a4-023e7d-002855-001845-001233-33415c-5c677d-7d8597-979dac */
+.bg-cover {
+  background-size: cover !important;
+}
+
+header {
+  background-color: #001233;
+}
+
+.card {
+  background-color: #001845;
+  color: #ffffff;
+}
+
+.breadcrumb {
+  background-color: #001845;
+}
+/*# sourceMappingURL=style.css.map */

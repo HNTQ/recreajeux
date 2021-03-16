@@ -1,0 +1,24 @@
+/*1 color https://coolors.co/0466c8-0353a4-023e7d-002855-001845-001233-33415c-5c677d-7d8597-979dac */
+$primary: #001233;
+$secondary: #001845;
+$body: #7d8597;
+$white: #ffffff;
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+.navbar{
+    background-color: $primary;
+}
+
+body{
+    background-color: $body;
+}
+.card{
+    background-color: $secondary;
+    color: $white;
+}
+.breadcrumb{
+    background-color: $secondary;
+}
