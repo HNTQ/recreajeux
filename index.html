@@ -58,7 +58,7 @@
       </div>
 
       <!-- Atelier Card (Start)-->
-      <div class=".container d-flex row m-0 mb-2 justify-content-around border rounded border-secondary">
+      <div class="container col-12 d-flex row m-0 mb-2 justify-content-around border rounded border-secondary">
         <h2 class="col-12 text-center m-4">Ateliers</h2>
         
         <!-- Card (Start)-->
@@ -68,7 +68,32 @@
           <div class="card-body">
             <h5 class="card-title">Atelier astronomie</h5>
             <p class="card-text">Nous vous proposons un atelier astronomie. Nous allons parler de l'histoire de l'astronomie et à travers des expériences d'optique, nous allons comprendre le fonctionnement des téléscopes et lunettes astronomiques.</p>
-            <a href="#" class="btn btn-primary">S'inscrire</a>
+             <!-- Collapse menu (Start)-->
+            <h2 id="atelierOne">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                S'inscrire
+              </button>
+            </h2>
+            <div id="collapseOne" class="collapse"  aria-labelledby="atelierOne">
+              <div>
+                <form>
+                  <div class="mb-3">
+                    <label for="emailAtelier1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="emailAtelier1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Votre adresse email ne sera jamais partagée</div>
+                  </div>
+                  <label for="name1" class="form-label">Nom</label>
+                  <input type="text" id="name1" class="form-control mb-2" placeholder="nom" name="name1">
+                  <label for="firstName1" class="form-label">Prenom</label>
+                  <input type="text" id="firstName1" class="form-control mb-2" placeholder="Prenom" name="firstName1">
+                  <button type="submit" class="btn btn-primary">Valider</button>
+                  <button class="btn btn-primary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Annuler
+                  </button>
+                </form>
+              </div>
+            </div>
+            <!-- Collapse menu (end)-->
           </div>
         </div>
         <!-- Card (end)-->
@@ -79,8 +104,33 @@
           <div class="card-body">
             <h5 class="card-title">Atelier biologie</h5>
             <p class="card-text">La biologie est un domaine très vaste. durant cet atelier nous allons fabriquer un petit ecosysteme autosufisant que vous rapporterez chez vous.</p>
-            <a href="#" class="btn btn-primary">S'inscrire</a>
+            <!-- Collapse menu (Start)-->
+            <h2 id="atelierTwo">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                S'inscrire
+              </button>
+            </h2>
+            <div id="collapseTwo" class="collapse"  aria-labelledby="atelierTwo">
+              <div>
+                <form>
+                  <div class="mb-3">
+                    <label for="emailAtelier2" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="emailAtelier2" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Votre adresse email ne sera jamais partagée</div>
+                  </div>
+                  <label for="name2" class="form-label">Nom</label>
+                  <input type="text" id="name2" class="form-control mb-2" placeholder="nom" name="name2">
+                  <label for="firstName2" class="form-label">Prenom</label>
+                  <input type="text" id="firstName2" class="form-control mb-2" placeholder="Prenom" name="firstName2">
+                  <button type="submit" class="btn btn-primary">Valider</button>
+                  <button class="btn btn-primary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Annuler
+                  </button>
+                </form>
+              </div>
             </div>
+            <!-- Collapse menu (end)-->
+          </div>
         </div>
         <!-- Card (end)-->
         <!-- Card (Start)-->
@@ -90,8 +140,33 @@
           <div class="card-body">
             <h5 class="card-title">Atelier la physique pour les enfants</h5>
             <p class="card-text">La physique c'est génial et pour la rendre encore plus sympa nous allons étudier les effets de la pression en construisant une fusée à eau.<br/> Tu pourras épater tes copains d'école lorsque tu feras décoler ta fusée à plus de 6m de haut! </p>
-            <a href="#" class="btn btn-primary">S'inscrire</a>
+            <!-- Collapse menu (Start)-->
+            <h2 id="atelierThree">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                S'inscrire
+              </button>
+            </h2>
+            <div id="collapseThree" class="collapse"  aria-labelledby="atelierThree">
+              <div>
+                <form>
+                  <div class="mb-3">
+                    <label for="emailAtelier3" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="emailAtelier3" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Votre adresse email ne sera jamais partagée</div>
+                  </div>
+                  <label for="name3" class="form-label">Nom</label>
+                  <input type="text" id="name3" class="form-control mb-2" placeholder="nom" name="name3">
+                  <label for="firstName3" class="form-label">Prenom</label>
+                  <input type="text" id="firstName3" class="form-control mb-2" placeholder="Prenom" name="firstName3">
+                  <button type="submit" class="btn btn-primary">Valider</button>
+                  <button class="btn btn-primary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Annuler
+                  </button>
+                </form>
+              </div>
             </div>
+            <!-- Collapse menu (end)-->
+          </div>
         </div>
         <!-- Card (end)-->
 
@@ -100,14 +175,36 @@
       <!-- Atelier Card (end)-->
 
       <!-- Événement (Start)-->
-      <div class="border rounded border-secondary p-2 mb-2">
-            
-        <h2 class="text-center m-4">Événements</h2>
-        <p>Ce soir, grand évenement, le ciel sera dégagé sur toute la france, la lune sera absente, c'est une nuit parfaite pour observer les étoiles!</p>
-
+      <div class="container col-12 d-flex justify-content-center row border rounded border-secondary p-2 m-0 mb-2">       
+        <h2 class="text-center m-4 col-12">Événements</h2>
+          <div class="card mb-3" style="max-width: 60%;">
+            <div class="row g-0">
+              <div class="col-lg-4">
+                <img src="media/Nuit-etoilée.jpg" class="card-img" alt="Une nuit étoilée, il n'y a rien de plus beau">
+              </div>
+              <div class="col-lg-8">
+                <div class="card-body">
+                  <h5 class="card-title">Soirée étoilée</h5>
+                  <p class="card-text">Ce soir, grand évenement, le ciel sera dégagé sur toute la france, la lune sera absente, c'est une nuit parfaite pour observer les étoiles!</p>
+                  <a href="#" class="btn btn-primary">S'inscrire</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- Événement (end)-->
     </main>
+    <h2 id="headingTwo">
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        S'inscrire
+      </button>
+    </h2>
+    <div id="collapseTwo" class="collapse"  aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div>
+        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+
     <footer class="d-flex">
       <p class="align-self-end text-center col-12">@2021</p>
     </footer>
