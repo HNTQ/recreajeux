@@ -24,10 +24,10 @@
                 <a class="nav-link" href="#">Ateliers</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/evenement.html" tabindex="-1">Événements</a>
+                <a class="nav-link" href="pages/evenement.html">Événements</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1">Thèmes</a>
+                <a class="nav-link" href="#">Thèmes</a>
               </li>
             </ul>
           </div>
@@ -42,8 +42,8 @@
     </header>
     <!-- Header (end)-->
 
-    <!-- hero section (Start)-->
-    <div style="background: url(media/espace.jpg);" class="bg-cover text-white m-0">
+    <!-- hero (Start)-->
+    <aside style="background: url(media/espace.jpg);" class="bg-cover text-white m-0">
       <div class="container py-5 text-center">
         <div class="w-100">
           <h1 class="display-1">ASSOSCIENCES</h1>
@@ -51,21 +51,21 @@
           <a href="#" role="button" class="btn btn-primary px-5">Tous nos thèmes</a>
         </div>
       </div>
-    </div>
-    <!-- hero section (end)-->
+    </aside>
+    <!-- hero (end)-->
 
     <main class="m-2">
-      <div class="border rounded border-secondary mb-2 text-center">
+      <section class="border rounded border-secondary mb-2 text-center">
         <h2>Assosciences</h2>
         <p>Notre association a pour but de rendre accessible la science pour tout le monde. nous souhaitons générer des passions, faire réver les petits comme les grands à travers des ateliers ludiques et des évenements</p>
-      </div>
+      </section>
 
       <!-- Atelier Card (Start)-->
-      <div class="container col-12 d-flex row m-0 mb-2 justify-content-around border rounded border-secondary">
+      <section class="container col-12 d-flex row m-0 mb-2 justify-content-around border rounded border-secondary">
         <h2 class="col-12 text-center m-4">Ateliers du moment</h2>
         
         <!-- Card (Start)-->
-        <div class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
+        <article class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
           <img src="media/étoile.jpg" class="card-img-top m-0" alt="...">
           <p>Image par <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=828656">Free-Photos</a></p>
           <div class="card-body">
@@ -98,15 +98,15 @@
             </div>
             <!-- Collapse menu (end)-->
           </div>
-        </div>
+        </article>
         <!-- Card (end)-->
         <!-- Card (Start)-->
-        <div class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
+        <article class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
           <img src="media/biologie.jpg" class="card-img-top cover" alt="...">
           <p>Image par <a href="https://pixabay.com/fr/users/ejaugsburg-148268/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=326923">ejaugsburg</a></p>
           <div class="card-body">
             <h5 class="card-title">Atelier biologie</h5>
-            <p class="card-text">La biologie est un domaine très vaste. durant cet atelier nous allons fabriquer un petit ecosysteme autosufisant que vous rapporterez chez vous.</p>
+            <p class="card-text">La biologie est un domaine très vaste. durant cet atelier nous allons fabriquer un petit écosysteme autosuffisant que vous rapporterez chez vous.</p>
             <!-- Collapse menu (Start)-->
             <h2 id="atelierTwo">
               <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -134,10 +134,10 @@
             </div>
             <!-- Collapse menu (end)-->
           </div>
-        </div>
+        </article>
         <!-- Card (end)-->
         <!-- Card (Start)-->
-        <div class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
+        <article class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
           <img src="media/physique-enfants.jpg" class="card-img-top" alt="...">
           <p>Image de <a href="https://pixabay.com/fr/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3864569">Gerd Altmann</a></p>
           <div class="card-body">
@@ -170,17 +170,18 @@
             </div>
             <!-- Collapse menu (end)-->
           </div>
-        </div>
+        </article>
         <!-- Card (end)-->
-
-
-      </div>
+        <div class="col-12 m-2 d-flex justify-content-end">
+          <a href="#" class="btn btn-primary">Tous nos ateliers</a>
+        </div>
+    </section>
       <!-- Atelier Card (end)-->
 
       <!-- Événement (Start)-->
-      <div class="container col-12 d-flex justify-content-center row border rounded border-secondary p-2 m-0 mb-2">       
-        <h2 class="text-center m-4 col-12">Événements</h2>
-          <div class="card mb-3">
+      <section class="container col-12 d-flex justify-content-center row border rounded border-secondary p-2 m-0 mb-2">       
+        <h2 class="text-center m-4 col-12">Événement à ne pas rater</h2>
+          <article class="card mb-3">
             <div class="row g-0">
               <div class="col-lg-4">
                 <img src="media/Nuit-etoilée.jpg" class="card-img" alt="Une nuit étoilée, il n'y a rien de plus beau">
@@ -196,8 +197,8 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
       <!-- Événement (end)-->
     </main>
     <footer class="d-flex">
