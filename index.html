@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <!-- Required meta -->
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title and description -->
     <title>Assoscience</title>
+    <meta name="description" content="Association ayant pour but de rendre accessible la science pour tout le monde. nous souhaitons générer des passions, faire réver les petits comme les grands à travers des ateliers ludiques et des évenements"/>
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- local CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/cdd816af0d.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Header (Start)-->
@@ -63,11 +71,11 @@
       <!-- Atelier Card (Start)-->
       <section class="container col-12 d-flex row m-0 mb-2 justify-content-around border rounded border-secondary">
         <h2 class="col-12 text-center m-4">Ateliers du moment</h2>
-        
+        <meta id="_startDate3" itemprop="startDate" content="2021-03-18">
         <!-- Card (Start)-->
         <article itemscope itemtype="http://schema.org/Event" itemref="_startDate3" class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
           <img src="media/étoile.jpg" class="card-img-top m-0" alt="...">
-          <p>Image par <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=828656">Free-Photos</a></p>
+          <p>Image par <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=828656" itemprop="author">Free-Photos</a></p>
           <div class="card-body">
             <h5 itemprop="name" class="card-title">Atelier astronomie</h5>
             <p itemprop="description" class="card-text">Nous vous proposons un atelier astronomie. Nous allons parler de l'histoire de l'astronomie et à travers des expériences d'optique, nous allons comprendre le fonctionnement des téléscopes et lunettes astronomiques.</p>
@@ -100,11 +108,10 @@
           </div>
         </article>
         <!-- Card (end)-->
-        <meta id="_startDate3" itemprop="startDate" content="2021-03-18">
         <!-- Card (Start)-->
         <article itemscope itemtype="http://schema.org/Event" itemref="_startDate3" class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
           <img src="media/biologie.jpg" class="card-img-top cover" alt="...">
-          <p>Image par <a href="https://pixabay.com/fr/users/ejaugsburg-148268/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=326923">ejaugsburg</a></p>
+          <p>Image par <a href="https://pixabay.com/fr/users/ejaugsburg-148268/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=326923" itemprop="author">ejaugsburg</a></p>
           <div class="card-body">
             <h5 itemprop="name" class="card-title">Atelier biologie</h5>
             <p itemprop="description" class="card-text">La biologie est un domaine très vaste. durant cet atelier nous allons fabriquer un petit écosysteme autosuffisant que vous rapporterez chez vous.</p>
@@ -140,7 +147,7 @@
         <!-- Card (Start)-->
         <article itemscope itemtype="http://schema.org/Event" itemref="_startDate3" class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
           <img src="media/physique-enfants.jpg" class="card-img-top" alt="...">
-          <p>Image de <a href="https://pixabay.com/fr/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3864569">Gerd Altmann</a></p>
+          <p>Image de <a href="https://pixabay.com/fr/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3864569" itemprop="author">Gerd Altmann</a></p>
           <div class="card-body">
             <h5 itemprop="name" class="card-title">Atelier la physique pour les enfants</h5>
             <p itemprop="description" class="card-text">La physique c'est génial et pour la rendre encore plus sympa nous allons étudier les effets de la pression en construisant une fusée à eau.<br/> Tu pourras épater tes copains d'école lorsque tu feras décoler ta fusée à plus de 6m de haut! </p>
@@ -202,8 +209,23 @@
       </section>
       <!-- Événement (end)-->
     </main>
-    <footer class="d-flex">
-      <p class="align-self-end text-center col-12">@2021</p>
+    <footer class="d-flex row">
+      <div class="align-self-end text-center col-12 d-flex row justify-content-around">
+        <div class="list-group col-lg-3 align-self-center">
+              <a  href="#">Accueil</a>
+              <a  href="#">A propos</a>
+              <a  href="#">contact</a>
+        </div>
+        <div class="col-lg-3 list-group">
+          <p>Retrouvez toutes nos activités sur les réseaux sociaux</p>
+          <a href="#">Facebook <i class="fab fa-facebook"></i></a>
+          <a href="#">Twitter <i class="fab fa-twitter"></i></a>
+          <a href="#">Instagram <i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="align-self-end text-center col-12">
+        <p>2020 – 2021 Associascience</p>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>

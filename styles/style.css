@@ -1,5 +1,10 @@
+@charset "UTF-8";
+/*
+1-color
+2-fix display-1 issue (not responsive)
+3-général*/
 /*1 color */
-/*2 fix display-1 issue (not responsive)*/
+/*2-fix display-1 issue (not responsive)*/
 @media (max-width: 992px) {
   .display-1 {
     font-size: 4rem;
@@ -24,6 +29,15 @@
   }
 }
 
+/*3-général*/
+body {
+  background-color: #d0d2d9;
+}
+
+footer {
+  height: 200px;
+}
+
 .bg-cover {
   background-size: cover !important;
 }
@@ -32,21 +46,11 @@ header, footer {
   background-color: #001233;
 }
 
-body {
-  background-color: #d0d2d9;
-}
-
-.card {
-  background-color: #001845;
-  color: #ffffff;
-}
-
-.breadcrumb {
+.breadcrumb, .card {
   background-color: #001845;
 }
 
-footer {
-  height: 200px;
+.card, footer, footer a {
   color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

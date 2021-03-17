@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html lang="fr"><head>
+<html lang="fr">
+  <head>
+    <!-- Required meta -->
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="../styles/style.css"/>
-    <title>Assoscience</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title and description -->
+    <title>Assoscience - Événements</title>
+    <meta name="description" content="Tous les événements associascience disponible couvrant de nombreux domaine de la science."/>
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- local CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/cdd816af0d.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!--  Header (Start) -->
@@ -190,6 +199,7 @@
       <!--  Évenements (start) -->
       <section class="container col-12 d-flex row justify-content-around border rounded border-secondary mb-2 text-center">
         <h2 class="col-12 text-center m-4">Événements</h2>
+        <!-- Card (Start)-->
         <article itemscope itemtype="http://schema.org/Event" class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
           <img itemprop="image" src="../media/Physique.jpg" class="card-img-top m-0" alt="..."/>
           <p>Image par <a href="https://pixabay.com/fr/users/publicdomainpictures-14/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=219675">
@@ -199,22 +209,26 @@
             <h5 itemprop="name" class="card-title">Congrès internationnal de la physique</h5>
             <p class="card-text">
             <span itemprop="startDate" content="2021-03-31">Mercredi 31 mars</span> se déroulera 
-            <span itemprop="description">le congrès internationnal de la physique à Paris. De nombreux sujets seront abordé dont la toute récente mécanique quantique.</span> </p>
+            <span itemprop="description">le congrès internationnal de la physique à Paris. De nombreux sujets seront abordés dont la toute récente mécanique quantique.</span> </p>
             <button class="btn btn-primary" type="button">Voir le programme</button>
           </div>
         </article>
+        <!-- Card (end)-->
+        <!-- Card (Start)-->
         <article itemscope itemtype="http://schema.org/Event" class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
           <img itemprop="image" src="../media/Mathématiques.jpg" class="card-img-top m-0" alt="..."/>
           <p>Image par <a href="https://pixabay.com/fr/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2853022">
           <span itemprop="performer" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">Gerd Altmann</span></span></a></p>
           <div class="card-body">
-            <h5 itemprop="name" class="card-title">Animations: les mathématiques en s'amusant</h5>
+            <h5 itemprop="name" class="card-title">Animation: les mathématiques en s'amusant</h5>
             <p itemprop="description" class="card-text">Les mathématiques, sujet parfois obscur et compliqué. nous vous proposons de nous réunir afin de participer à des animations et des jeux liés aux mathématiques.<br/>
               L'objectif est de comprendre à quoi elles servent dans la vie de tous les jours et surtout de les rendre plus sympa</p>
             <button class="btn btn-primary" type="button">En savoir plus</button>
           </div>
         </article>
+        <!-- Card (end)-->
+        <!-- Card (Start)-->
         <article itemscope itemtype="http://schema.org/Event" class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
           <img itemprop="image" src="../media/eau.jpg" class="card-img-top m-0" alt="..."/>
           <p>Image par <a href="https://pixabay.com/fr/users/publicdomainpictures-14/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=219675">
@@ -222,26 +236,46 @@
             <span itemprop="name">PublicDomainPictures</span></span></a></p>
           <div class="card-body">
             <h5 itemprop="name" class="card-title">L'eau</h5>
-            <p itemprop="description" class="card-text">L'eau est un élément clé de la vie sur terre, mais la connaissez vous vraiment.<br/>
+            <p itemprop="description" class="card-text">L'eau est un élément clé de la vie sur terre, mais la connaissez vous vraiment ?<br/>
               Venez le nous retrouver pour le savoir</p>
             <button class="btn btn-primary" type="button">En savoir plus</button>
           </div>
         </article>
+        <!-- Card (end)-->
+        <!-- Card (Start)-->
         <article itemscope itemtype="http://schema.org/Event" class="card col-12 col-lg-3 p-0 m-2" style="width: 18rem;">
           <img itemprop="image" src="../media/éléctricité.jpg" class="card-img-top m-0" alt="..."/>
-          <p>Image par <a href="https://pixabay.com/fr/users/piro4d-2707530/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2577139">PIRO4D</a></p>
+          <p>Image par <a href="https://pixabay.com/fr/users/piro4d-2707530/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2577139" itemprop="author">PIRO4D</a></p>
           <div class="card-body">
             <h5 itemprop="name" class="card-title">Comprendre l'éléctricité</h5>
             <p itemprop="description" class="card-text">Conférence organisé pour les enfants sur l'éléctricité. Utilisées tous les jours, nous la trouvons bien pratique, mais d'ou vient elle, qu'est ce que c'est réélement?</p>
             <button class="btn btn-primary" type="button">En savoir plus</button>
           </div>
         </article>
+        <!-- Card (end)-->
       </section>
       <!--  Évenements (end) -->
     </main>
-    <footer class="d-flex">
-      <p class="align-self-end text-center col-12">@2021</p>
+
+    <footer class="d-flex row">
+      <div class="align-self-end text-center col-12 d-flex row justify-content-around">
+        <div class="list-group col-lg-3 align-self-center">
+              <a  href="../index.html">Accueil</a>
+              <a  href="#">A propos</a>
+              <a  href="#">contact</a>
+        </div>
+        <div class="col-lg-3 list-group">
+          <p>Retrouvez toutes nos activités sur les réseaux sociaux</p>
+          <a href="#">Facebook <i class="fab fa-facebook"></i></a>
+          <a href="#">Twitter <i class="fab fa-twitter"></i></a>
+          <a href="#">Instagram <i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="align-self-end text-center col-12">
+        <p>2020 – 2021 Associascience</p>
+      </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   
  
